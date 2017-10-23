@@ -1,0 +1,18 @@
+http://www.qingtaoke.com/api/UserPlan/testUserPlan
+arrObj=%5B%5D&shopUid=1026368937
+
+http://www.qingtaoke.com/?r=api/Collection/ReGoodsIDList&goodID=527972819320
+
+
+http://newxz.66a8.com\v123\\upgo.exe
+
+
+藏王 本森 吹雪 大凤 北卡
+
+http://www.qingtaoke.com/api/UserPlan/testUserPlan
+arrObj=%5B%5D&shopUid=1026368937
+
+http://www.qingtaoke.com/?r=api/Collection/ReGoodsIDList&goodID=527972819320
+
+doyouai  uffuff130
+AAgun163

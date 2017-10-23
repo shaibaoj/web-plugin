@@ -1,0 +1,27 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "images/logo.png",
+      "default_popup": "popup.html",
+      "default_title": "\u5DE6\u952E\u5355\u51FB\u53EF\u67E5\u770B\u66F4\u591A\u7F51\u7AD9\u4FE1\u606F\uFF0C\u53F3\u952E\u5355\u51FB\u9009\u62E9SEO in China\u53EF\u67E5\u770B\u6269\u5C55\u8BF4\u660E"
+   },
+   "content_scripts": [ {
+      "js": [ "js/se_in_page.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "\u53F2\u4E0A\u6700\u7ED9\u529B\u7684Chrome SEO\u6269\u5C55\uFF08\u6CA1\u6709\u4E4B\u4E00\uFF09!   \u4E00\u952E\u663E\u793A\u7F51\u7AD9\u5404\u79CDseo\u6570\u636E\uFF0C\u5404\u79CD\u7ADE\u4E89\u5206\u6790\uFF0Echrome\u8FF7\u3001SEO\u8FBE\u4EBA\u5FC5\u5907\u5229\u5668\uFF01 updated by www.heku.org",
+   "homepage_url": "http://www.heku.org/seo/145.html#68506-baidu-1-54587-61268ee5ff98a375080db3d818ca47fd",
+   "icons": {
+      "128": "images/logo.png"
+   },
+   "manifest_version": 2,
+   "name": "SEO in China",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "browsingData", "webRequest", "webNavigation", "http://*/*", "https://*/*" ],
+   "update_url": "http://chromeupdate.heku.org/extension/kadkilbaeidgeailjbekkplimkiedopj/kadkilbaeidgeailjbekkplimkiedopj.xml",
+   "version": "7.8"
+}

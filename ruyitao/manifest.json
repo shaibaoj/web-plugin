@@ -1,0 +1,32 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "assets/icons/logo-19.png",
+      "default_popup": "views/popup.html",
+      "default_title": "\u5982\u610F\u6DD8"
+   },
+   "content_scripts": [ {
+      "js": [ "assets/js/jquery-1.7.1.min.js", "views/shoppingassist.js" ],
+      "matches": [ "http://*/*" ]
+   }, {
+      "js": [ "views/ruyitao-site.js" ],
+      "matches": [ "http://ruyi.taobao.com/*", "http://*.etao.com/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com https://ruyi.taobao.com; object-src 'self'",
+   "description": "\u81EA\u52A8\u6BD4\u8F83\u540C\u6B3E\u5546\u54C1\u5728\u6DD8\u5B9D\u3001\u5929\u732B\u3001\u4EAC\u4E1C\u7B49\u7684\u4EF7\u683C\uFF0C\u663E\u793A\u6700\u8FD13\u4E2A\u6708\u7684\u4EF7\u683C\u66F2\u7EBF\uFF0C\u5C06\u5546\u54C1\u6DFB\u52A0\u5230\u201C\u60F3\u4E70\u201D\u5373\u53EF\u5F00\u901A\u964D\u4EF7\u63D0\u9192\u3002\u5982\u610F\u6DD8\uFF0C\u6DD8\u6211\u5982\u610F\u7684\uFF01",
+   "icons": {
+      "128": "assets/icons/logo-128.png",
+      "16": "assets/icons/logo-16.png",
+      "48": "assets/icons/logo-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDT+doHkZRefn/93hPrFrlalrkWCZjtthM3MadN5GqqZLc8c/HHosbnjbkheNIQmvAgW3geiPoiYrc42CCVNg0bqiljnjSyhntQHkWSXvAgq7xmb3kJMcS6/MWn/ySeIpnG//Imc6D3YCBVljrOIk6n1mYbPZ/IETJJA9eOVw5e0QIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "18",
+   "name": "\u5982\u610F\u6DD8\uFF1A\u540C\u6B3E\u6BD4\u4EF7\uFF0C\u4EF7\u683C\u66F2\u7EBF\uFF0C\u964D\u4EF7\u63D0\u9192",
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "cookies", "unlimitedStorage" ],
+   "update_url": "http://upext.chrome.360.cn/intf.php?method=ExtUpdate.query",
+   "version": "3.6.0.22",
+   "web_accessible_resources": [ "assets/images/toolbar/logos.png", "assets/images/products/search-cn-blue.png", "assets/css/popup.css", "assets/images/products/x-white.png", "assets/images/search/separator-small.png", "assets/images/toolbar/loading.gif", "assets/images/products/similar-logo.png", "assets/images/search/arrow-down2.png", "assets/images/products/func-btn-hover.png", "assets/images/search/search-cn.png", "assets/images/products/suggest.png", "assets/images/no_image_available.png", "assets/images/detail-popup/img.png", "assets/images/wantbuy/ruyitao-8.png", "assets/images/logo-icon.png", "assets/images/share/share-btn-disabled.png", "assets/images/products/taobao.png", "assets/images/share/success-ico.png", "assets/css/searchbox-patch.css", "assets/images/srp-compare/follow.png", "assets/images/share/result-btn-hover.png", "assets/images/share_to_microblog_btn.gif", "assets/images/share/share-btn-hover.png", "assets/images/share/tick-ico.png", "assets/images/expansion-arrow.png", "assets/images/share/result-btn.png", "assets/icons/logo-19.png", "assets/images/newpricebar/pricebox-8.png", "assets/images/search/non-zh-search-logo.png", "assets/images/search/merchant-selected-icon.png", "assets/images/products/arrow-down-blue.png", "assets/images/search/arrow-up-blue.png", "assets/images/toolbar/ivy-intro.png", "assets/images/ivy-want-btns.png", "assets/images/shrink-logo-en.png", "assets/images/ivy-button-icon.png", "assets/images/share/logo.png", "assets/images/wantbuy/ruyitao.png", "assets/images/srp-compare/huoyan-bar.png", "assets/images/products/others.png", "assets/images/loading.gif", "assets/images/fast-compare-arrow-sprites.png", "assets/images/srp-compare/huoyan-bar-disabled.png", "assets/images/expand-now-btn.png", "assets/images/products/etao-text-logo.png", "assets/images/products/author.png", "assets/images/share/share-btn-active.png", "assets/images/price-curve/arrow-down.png", "assets/images/share/weibo.png", "assets/images/search/search-active.png", "assets/images/x-grey.png", "assets/images/close-icon-18x18.png", "assets/images/search/arrow-down.png", "assets/images/notification-header-bg.png", "assets/images/shrink-logo.png", "assets/images/newpricebar/pricebox.png", "assets/images/toolbar/buy-btns.png", "assets/images/toolbar/popup-img.png", "assets/images/share/result-btn-active.png", "assets/images/price-curve/follow.png", "assets/images/share/failure-ico.png", "assets/images/search/loading.gif", "assets/images/products/popup-intro.png", "assets/images/search/search-icon-blue.png", "assets/images/share/share-btn.png", "assets/images/toolbar/heart.png" ]
+}

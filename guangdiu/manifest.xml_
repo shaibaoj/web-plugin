@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<extension> 
+    <id>com.guangdiu</id> 
+    <name>逛丢 - 实时同步全网折扣</name> 
+    <author>Hopone</author>
+    <version>1.1.4</version> 
+    <request_api_version>1</request_api_version>
+    <show_icon>true</show_icon> 
+    <description>全网折扣超级聚合引擎，实时同步全网折扣</description>
+    <popup page="popup.html" width="450" height="650" /> 
+    <content_scripts> 
+        <content_script runat="document_complete"> 
+            <match>http://guangdiu.com/*</match> 
+            <css>style.css</css> 
+            <js>popup.js</js> 
+        </content_script> 
+    </content_scripts>
+</extension>

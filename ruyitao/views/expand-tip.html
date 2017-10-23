@@ -1,0 +1,73 @@
+<style type="text/css">
+#ruyitao-selector-prefix-et-wrapper {
+  width: 300px;
+  padding: 0;
+  margin: 0;
+  font-family: "微软雅黑", "Microsoft YaHei", "宋体", Verdana, Geneva, sans-serif;
+  font-size: 12px;
+  color: #000;
+  background: white;
+
+  position: fixed;
+  right: 0;
+  bottom: -320px;
+  border: 1px solid #76a0b8;
+  z-index: 2147483647 !important;
+  border-radius: 3px;
+
+  -webkit-transition: bottom .3s ease-in-out;
+  -moz-transition: bottom .3s ease-in-out;
+  -o-transition: bottom .3s ease-in-out;
+  -ms-transition: bottom .3s ease-in-out;
+  transition: bottom .3s ease-in-out;
+}
+
+.ruyitao-selector-prefix-et-content {
+  text-align: center;
+  font-size: 18px;
+  color: #1e90ff;
+  padding-top: 20px;
+}
+
+.ruyitao-selector-prefix-et-header {
+  height: 25px;
+  padding: 5px 10px 0 10px;
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+  background: url(%chrome-extension%assets/images/notification-header-bg.png) repeat-x 0 0;
+}
+
+#ruyitao-selector-prefix-et-logo {
+  float: left;
+  width: 21px;
+  height: 20px;
+  background: url(%chrome-extension%assets/images/logo-icon.png) no-repeat 0 0;
+}
+
+#ruyitao-selector-prefix-et-close {
+  float: right;
+  width: 11px;
+  height: 11px;
+  cursor: pointer;
+  background: url(%chrome-extension%assets/images/x-grey.png) no-repeat 0 0;
+  margin-top: 5px;
+}
+
+#ruyitao-selector-prefix-et-expend-now-btn {
+  width: 101px;
+  height: 32px;
+  background: url(%chrome-extension%assets/images/expand-now-btn.png) no-repeat 0 0;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+</style>
+<div id="ruyitao-selector-prefix-et-wrapper">
+  <div class="ruyitao-selector-prefix-et-header">
+    <div id="ruyitao-selector-prefix-et-logo"></div><div id="ruyitao-selector-prefix-et-close"></div>
+  </div>
+  <div class="ruyitao-selector-prefix-et-content">
+    <div>马上开启比价，同款，推荐</div>
+    <div id="ruyitao-selector-prefix-et-expend-now-btn"></div>
+  </div>
+</div>

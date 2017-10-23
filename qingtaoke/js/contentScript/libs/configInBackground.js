@@ -1,0 +1,1 @@
+define("configInBackground",["jquery","underscore","common"],function(a,b,c){return function(){function a(){}return a.prototype.get=function(a){var b;return b={name:"background",module:"config",api:"get",param:[a]},c.sendMsg("background",b)},a.prototype.set=function(a,b){var d;return d={name:"background",module:"config",api:"set",param:[a,b]},c.sendMsg("background",d)},a}()});

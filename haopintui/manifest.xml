@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<extension> 
+	<id>com.haopintui.taokezhushou</id>
+	<name>好品推淘客神器</name>
+	<show_icon>true</show_icon>
+	<description>当您在浏览淘宝/天猫商品时，自动查询显示该商品淘宝客推广信息（佣金、推广计划、红包/优惠券）和商品价格走势，自动判断该商品是否参加了鹊桥活动并集成了强大的鹊桥商品搜索引擎，淘客站长推广必备神器。官方网站：http://www.haopintui.com</description>
+	<popup page="popup.html" width="" height="" />
+	<background page="background.html" />
+	<content_scripts>
+		<content_script runat="document_complete" all_frames="true">
+			<match>*://*.haopintui.com:*/*</match>
+			<match>*://*.haopintui.com/*</match>
+			<match>*://item.taobao.com/*</match>
+			<match>*://world.taobao.com/*</match>
+			<match>*://detail.tmall.com/*</match>
+			<match>*://world.tmall.com/*</match>
+			<match>*://detail.ju.taobao.com/*</match>
+			<match>*://detail.yao.95095.com/*</match>
+			<match>*://chaoshi.detail.tmall.com/*</match>
+			<match>*://detail.tmall.hk/*</match>
+			<match>*://items.alitrip.com/*</match>
+			<match>*://hotel.alitrip.com/*</match>
+			<match>*://item.alitrip.com/*</match>
+			<match>*://detail.alitrip.com/*</match>
+			<match>*://*.alitrip.hk/*</match>
+			<css>css/style.css</css>
+			<css>js/layer/skin/layer.css</css>
+			<js>js/jquery.min.js</js>
+			<js>js/layer/layer.js</js>
+			<js>js/laytpl.js</js>
+			<js>js/common.js</js>
+			<js>js/highstock.js</js>
+			<js>js/tongji.js</js>
+		</content_script>
+	</content_scripts>
+	<permissions>
+       <permission>http://*/*</permission>
+       <permission>https://*/*</permission>
+       <permission>tabs</permission>
+       <permission>cookies</permission>
+       <permission>activeTab</permission>
+       <permission>storage</permission>
+       <permission>alarms</permission>
+       <permission>notifications</permission>
+       <permission>webRequest</permission>
+       <permission>webRequestBlocking</permission>
+	</permissions>
+	<version>1.0</version>
+	<request_api_version>1</request_api_version>
+	<author>好品推</author>
+</extension>

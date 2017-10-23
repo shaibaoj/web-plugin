@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+<title>好品推佣金神器</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="css/popup.css"/>
+</head>
+<body>
+<div class="content-wrap">
+	<a href="http://www.haopintui.com" target="_blank"><div class="logo"></div></a>
+	<div class="setting-wrap">
+		<div class="title">批量转化连接</div>
+		<div class="shortcut">
+			<p>定向计划申请理由：</p>
+			<p><textarea name="applyReason" placeholder="申请理由最多200个字符（100个汉字）..." id="applyReason"></textarea></p>
+			<p><a id="zhuanhuan" class="hpt_btn">开启CMS批量转化</a></p>
+			<p><a id="alimama_login" class="hpt_btn_alimama" style="display:none">需先登录淘客联盟</a></p>
+			<p><a id="hpt_login" class="hpt_btn_alimama" style="display:none">需先登录好品推</a></p>
+			<p id="hpt_cms_list" style="display:none">
+				选择cms：
+				<!-- disabled="disabled" -->
+				<select id="hpt_cms"></select> <a target="_blank" id="hpt_cms_a" style="display:none" href="http://www.haopintui.com/user_info.php?action=cms&mod=site" >没有CMS，先去配置一个吧</a>
+			</p>
+			<p id="hpt_pid_list" style="display:none">
+				选择pid：
+				<select id="hpt_pid"></select> <a id="hpt_pid_a" style="display:none" >没配置pid，先去配置一个吧</a>
+			</p>
+			<p id="tongji" style="display:none">
+				累计转化连接数:<span id="tongji_total" style="color:#FF6666"></span>,本次转化连接数:<span id="tongji_num" style="color:#FF6666"></span>
+			</p>
+		</div>
+	</div>
+	<div class="setting-wrap">
+		<div class="title">插件载入设置</div>
+		<div class="menu">
+			<div class="menu-wrap">
+				载入时隐藏插件：
+				<input class="mui-switch mui-switch-anim" type="checkbox" id="hiddenPlugin" value="1">
+			</div>
+		</div>
+		<div class="shortcut">
+			<!-- <p>定向计划申请理由：</p>
+			<p><textarea name="applyReason" placeholder="申请理由最多200个字符（100个汉字）..." id="applyReason"></textarea></p> -->
+			<p>快捷键：</p>
+			<p>1、显示和隐藏插件：<input type="text" maxlength="1" id="keyPlugin" data-id="1"></p>
+			<!-- <p>2、淘宝联盟登陆框：<input type="text" maxlength="1" id="keyLogin" data-id="2"></p>
+			<p>3、展开和收起价格走势：<input type="text" maxlength="1" id="keyTrend" data-id="3"></p>
+			<p>4、展开和收起推广详情：<input type="text" maxlength="1" id="keyTaoke" data-id="4"></p>
+			<p>5、展开和收起鹊桥活动：<input type="text" maxlength="1" id="keyQueqiao" data-id="5"></p> -->
+		</div>
+	</div>
+</div>
+
+
+<style>
+.hpt_btn{display:block;width: 200px;background-color: #5db95b;cursor: pointer;color: #ffffff;font-size: 16px;text-align: center;}
+.hpt_btn:hover{background-color:#49b347;}
+
+.hpt_btn_alimama{display:block;width:150px;background-color:#dd514c;cursor: pointer;color:#ffffff;font-size: 16px;text-align: center;margin:5px}
+.hpt_btn_alimama:hover{background-color:#ff6600;}
+
+.doing{background-color:#ccc;}
+
+</style>
+<script language="JavaScript" src="js/jquery.min.js"></script>
+<script language="JavaScript" src="js/popup.js"></script>
+</body>
+</html>

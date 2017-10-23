@@ -1,0 +1,33 @@
+{
+   "background": {
+      "scripts": [ "js/jquery.js","js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/icon19.png",
+      "default_popup": "popup.html",
+      "default_title": "\u79c1\u5bc6"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "exclude_globs": [ "http://*.shaibaoj.com*", "http://shaibaojlocal.com", "http://localhost*", "http://local*", "http://127.0.0.1*" ],
+      "include_globs": [ "*" ],
+      "js": [ "js/jquery.js","js/content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "\u60a8\u627e\u4e0d\u5230\u7684\uff0c\u60f3\u627e\u7684\u8fd9\u91cc\u90fd\u6709",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "18",
+   "name": "\u79c1\u5bc6",
+   "options_page": "html/options.html",
+   "permissions": [ "contextMenus", "tabs", "http://*/*", "https://*/*", "notifications" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0",
+   "web_accessible_resources": [ "css/options.css", "js/background.js", "js/content.js","js/jquery.js" ]
+}

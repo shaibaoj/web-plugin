@@ -1,0 +1,205 @@
+.content-wrap {
+  max-width: 360px;
+  margin: 0;
+  padding: 10px 20px;
+  color: #666;
+  font-size: 14px;
+  font-family: "Microsoft Yahei";
+}
+.content-wrap .logo a {
+  color: #F60;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.content-wrap .setting-wrap {
+  display: block;
+  position: relative;
+}
+.content-wrap .setting-wrap .setting-title {
+  height: 22px;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+.content-wrap .setting-wrap .shortcut .shortcut-wrap {
+  display: block;
+  height: 30px;
+  margin-bottom: 10px;
+  line-height: 30px;
+  overflow: hidden;
+}
+.content-wrap .setting-wrap .shortcut .shortcut-wrap input {
+  float: right;
+  width: 50px;
+  height: 28px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  color: #999;
+  text-align: center;
+  line-height: 28px;
+  outline: none;
+  text-transform: uppercase;
+}
+.content-wrap .setting-wrap .shortcut .shortcut-wrap .text {
+  float: left;
+}
+.content-wrap .setting-wrap .menu {
+  margin-top: 25px;
+}
+.content-wrap .setting-wrap .menu .menu-wrap {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 24px;
+  overflow: hidden;
+}
+.content-wrap .setting-wrap .menu .menu-wrap label {
+  float: left;
+  line-height: 24px;
+}
+.content-wrap .setting-wrap .menu .menu-wrap .menu-switch {
+  display: block;
+  position: relative;
+  float: right;
+  width: 36px;
+  height: 20px;
+  margin: 2px 0;
+  border-radius: 10px;
+  transition: background-color 0.5s ease-out;
+  cursor: pointer;
+}
+.content-wrap .setting-wrap .menu .menu-wrap .menu-switch i {
+  display: block;
+  position: absolute;
+  top: 3px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #FFF;
+  box-shadow: 0 2px 2px 0 rgba(73, 73, 73, 0.35);
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+}
+.content-wrap .setting-wrap .menu .menu-wrap .menu-switch.on i {
+  left: 19px;
+}
+.content-wrap .setting-wrap .menu .menu-wrap .menu-switch.off {
+  background-color: #E5E5E5;
+}
+.content-wrap .setting-wrap .menu .menu-wrap .menu-switch.off i {
+  left: 3px;
+  box-shadow: none;
+}
+.content-wrap .setting-wrap .menu .menu-wrap .menu-radio {
+  float: right;
+}
+.content-wrap .setting-wrap .menu .menu-wrap .menu-radio label {
+  margin: 0 0 0 10px;
+}
+.content-wrap .setting-wrap .menu .menu-wrap .menu-radio label input {
+  margin: 0;
+  vertical-align: middle;
+}
+.content-wrap .setting-wrap .reason {
+  margin-top: 25px;
+}
+.content-wrap .setting-wrap .reason input {
+  width: 338px;
+  height: 28px;
+  margin: 0;
+  padding: 0 10px;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+.content-wrap .setting-wrap .reason .setting-title {
+  margin-bottom: 5px;
+  border-bottom: 0;
+}
+.content-wrap .setting-wrap .popupBtn {
+  display: block;
+  width: 84px;
+  height: 30px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  color: #FFF;
+  text-align: center;
+  text-decoration: none;
+  line-height: 30px;
+  cursor: pointer;
+}
+.qtk-flagship-notice {
+  display: block;
+  clear: both;
+  margin-left: 19px;
+  padding-top: 5px;
+  color: #0CBC95;
+  font-size: 12px;
+  line-height: 16px;
+}
+.popup-color-default .setting-wrap .setting-title {
+  border-bottom: 1px solid #2F9A7F;
+  color: #2F9A7F;
+}
+.popup-color-default .setting-wrap .shortcut .shortcut-wrap input:focus {
+  border-color: #2F9A7F;
+}
+.popup-color-default .setting-wrap .menu .menu-wrap .menu-switch.on {
+  background-color: #2F9A7F;
+}
+.popup-color-default .setting-wrap .reason input:focus {
+  border-color: #2F9A7F;
+}
+.popup-color-default .setting-wrap .popupBtn {
+  background-color: #2F9A7F;
+}
+.popup-color-ink .setting-wrap .setting-title {
+  border-bottom: 1px solid #BFBFBF;
+  color: #BFBFBF;
+}
+.popup-color-ink .setting-wrap .shortcut .shortcut-wrap input:focus {
+  border-color: #BFBFBF;
+}
+.popup-color-ink .setting-wrap .menu .menu-wrap .menu-switch.on {
+  background-color: #BFBFBF;
+}
+.popup-color-ink .setting-wrap .reason input:focus {
+  border-color: #BFBFBF;
+}
+.popup-color-ink .setting-wrap .popupBtn {
+  background-color: #BFBFBF;
+}
+.popup-color-sun .setting-wrap .setting-title {
+  border-bottom: 1px solid #ED5240;
+  color: #ED5240;
+}
+.popup-color-sun .setting-wrap .shortcut .shortcut-wrap input:focus {
+  border-color: #ED5240;
+}
+.popup-color-sun .setting-wrap .menu .menu-wrap .menu-switch.on {
+  background-color: #ED5240;
+}
+.popup-color-sun .setting-wrap .reason input:focus {
+  border-color: #ED5240;
+}
+.popup-color-sun .setting-wrap .popupBtn {
+  background-color: #ED5240;
+}
+.popup-color-sky .setting-wrap .setting-title {
+  border-bottom: 1px solid #2F80A3;
+  color: #2F80A3;
+}
+.popup-color-sky .setting-wrap .shortcut .shortcut-wrap input:focus {
+  border-color: #2F80A3;
+}
+.popup-color-sky .setting-wrap .menu .menu-wrap .menu-switch.on {
+  background-color: #2F80A3;
+}
+.popup-color-sky .setting-wrap .reason input:focus {
+  border-color: #2F80A3;
+}
+.popup-color-sky .setting-wrap .popupBtn {
+  background-color: #2F80A3;
+}

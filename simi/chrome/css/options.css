@@ -1,0 +1,110 @@
+/* global style control code */
+@charset "UTF-8";
+/* global style initialization */
+/*
+* { margin: 0; padding: 0; border: 0; -webkit-font-smoothing: antialiased; }
+*/
+/** 清除内外边距 **/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ { margin: 0; padding: 0; }
+
+/** 默认字体 **/
+body, input, select, textarea {
+    font-size: 14px; line-height: 1.5;
+    font-family: "Helvetica", "Verdana", "Lucida Grande", "Sans", "Arial", "Droid Sans Fallback", "Microsoft YaHei", "SimSun";
+	background-color:#F0F0F0;
+}
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp { font-family: courier new, courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/** 重置列表元素 **/
+ul, li, ol { list-style: none; }
+
+/** 重置文本格式元素 **/
+a {
+    color: #00A390; text-decoration: none; cursor:pointer;
+    hide-focus: expression(this.hideFocus=true); /* for ie 5+ */
+    outline: none; /* for firefox 1.5 + */
+}
+a:hover { color:#017961; }
+
+/* reset focus effect */
+:focus { outline: none; }
+
+
+/* header */
+#header-icon {
+	width:200px; height:80px; margin:auto; margin-top:20px;
+	margin-bottom: 25px; text-align: center;
+	background:url(../images/options_icon.png) no-repeat 0 0;
+}
+
+/* content view */
+
+#container {
+	background-color: #fff;
+	border: 1px solid #cacaca;
+	width:300px; padding:20px; margin:auto;
+	-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;
+    -moz-box-shadow:0 0 4px #FFF; -webkit-box-shadow:0 0 4px #FFF; box-shadow:0 0 4px #FFF;
+}
+/* global style control code */
+@charset "UTF-8";
+/* global style initialization */
+/*
+* { margin: 0; padding: 0; border: 0; -webkit-font-smoothing: antialiased; }
+*/
+/** 清除内外边距 **/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ { margin: 0; padding: 0; }
+
+/** 默认字体 **/
+body, input, select, textarea {
+    font-size: 14px; line-height: 1.5;
+    font-family: "Helvetica", "Verdana", "Lucida Grande", "Sans", "Arial", "Droid Sans Fallback", "Microsoft YaHei", "SimSun";
+	background-color:#F0F0F0;
+}
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp { font-family: courier new, courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/** 重置列表元素 **/
+ul, li, ol { list-style: none; }
+
+/** 重置文本格式元素 **/
+a {
+    color: #00A390; text-decoration: none; cursor:pointer;
+    hide-focus: expression(this.hideFocus=true); /* for ie 5+ */
+    outline: none; /* for firefox 1.5 + */
+}
+a:hover { color:#017961; }
+
+/* reset focus effect */
+:focus { outline: none; }
+
+
+/* header */
+#header-icon {
+	width:200px; height:80px; margin:auto; margin-top:20px;
+	margin-bottom: 25px; text-align: center;
+	background:url(../images/options_icon.png) no-repeat 0 0;
+}
+
+/* content view */
+
+#container {
+	background-color: #fff;
+	border: 1px solid #cacaca;
+	width:300px; padding:20px; margin:auto;
+	-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;
+    -moz-box-shadow:0 0 4px #FFF; -webkit-box-shadow:0 0 4px #FFF; box-shadow:0 0 4px #FFF;
+}

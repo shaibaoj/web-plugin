@@ -1,0 +1,41 @@
+.web_add_alimama_pid {
+  padding: 10px;
+}
+.web_add_alimama_pid p {
+  margin: 6px;
+}
+.web_add_alimama_pid div {
+  margin: 6px;
+}
+.web_add_alimama_pid div input {
+  height: 44px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.web_add_alimama_pid div div {
+  text-align: center;
+}
+.web_add_alimama_pid div div button {
+  margin-left: 15px;
+  margin-top: 11px;
+  cursor: pointer;
+  padding: 10px 120px;
+}
+.qtk_tip_title {
+  color: red;
+  text-align: center;
+  margin: 4px 0px;
+}
+.web_lianjiezhuanhuan {
+  padding: 8px;
+}
+.web_lianjiezhuanhuan p {
+  margin: 4px 0px;
+}
+.web_lianjiezhuanhuan .p_title,
+.web_lianjiezhuanhuan .p_content {
+  padding-left: 12px;
+}
+.web_lianjiezhuanhuan .p_content span em:nth-child(2) {
+  color: red;
+}
