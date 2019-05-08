@@ -17,7 +17,7 @@
       "matches": [ "*://item.taobao.com/*", "*://world.taobao.com/*", "*://detail.tmall.com/*", "*://world.tmall.com/*", "*://detail.ju.taobao.com/*", "*://detail.yao.95095.com/*", "*://chaoshi.detail.tmall.com/*", "*://detail.tmall.hk/*", "*://items.alitrip.com/*", "*://hotel.alitrip.com/*", "*://item.alitrip.com/*", "*://detail.alitrip.com/*", "*://*.alitrip.hk/*" ],
       "run_at": "document_end"
    } ],
-   "description": "当您在浏览淘宝/天猫商品时，自动查询显示该商品淘宝客推广信息（佣金、推广计划、红包/优惠券）和商品价格走势，自动判断该商品是否参加了鹊桥活动并集成了强大的鹊桥商品搜索引擎，淘客站长推广必备神器。官方网站：http://www.haopintui.com",
+   "description": "当您在浏览淘宝/天猫商品时，自动查询显示该商品淘宝客推广信息（佣金、推广计划、红包/优惠券）和商品价格走势，自动判断该商品是否参加了鹊桥活动并集成了强大的鹊桥商品搜索引擎，淘客站长推广必备神器。官方网站：http://www.haopintui.net",
    "icons": {
       "128": "images/icon-128.png",
       "16": "images/icon-16.png",

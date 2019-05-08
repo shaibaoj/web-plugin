@@ -47,7 +47,7 @@
 .HPT-plugin .blue-link a:hover, .HPT-plugin a.blue-link:hover, #detail .HPT-plugin .blue-link a:hover, #detail .HPT-plugin a.blue-link:hover { color:#008EF0; }
 
 /* 插件样式 */
-.HPT-plugin .icon,.HPT-plugin .HPT-plugin-logo,.HPT-plugin .HPT-plugin-sub,.HPT-plugin .HPT-plugin-b .HPT-plugin-l,.HPT-plugin .HPT-plugin-b .HPT-plugin-search input[type="submit"]{ background:url(//res.huopinjie.com/taoke/template/default/inc/images/plug/tui.png) no-repeat;}
+.HPT-plugin .icon,.HPT-plugin .HPT-plugin-logo,.HPT-plugin .HPT-plugin-sub,.HPT-plugin .HPT-plugin-b .HPT-plugin-l,.HPT-plugin .HPT-plugin-b .HPT-plugin-search input[type="submit"]{ background:url(//static.cdn.youdanhui.com/taoke/template/default/inc/images/plug/tui.png) no-repeat;}
 i.HPT-plugin-icdown{ background-position:0px -89px; display:inline-block; width:16px; height:16px; vertical-align:middle;}
 i.HPT-plugin-icup{ background-position:-23px -89px; display:inline-block; width:16px; height:16px; vertical-align:middle;}
 i.HPT-plugin-icstable{ background-position:-54px -89px; display:inline-block; width:16px; height:16px; vertical-align:middle;}
@@ -97,7 +97,7 @@ i.HPT-plugin-icmall{ background-position:-75px -50px; display:inline-block; widt
 .HPT_mobile_price .price { vertical-align: middle; font-size: 30px; color: #280; font-weight: bolder; font-family: Arial; }
 .HPT-plugin .HPT-plugin-sub{ width:32px; height:32px; background-position:0 -40px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; }
 .HPT-plugin .HPT-loading { text-align:center; margin:120px auto; }
-.HPT-plugin .HPT-loading .HPT-loading-img { clear:both; width:60px; height:42px; margin:0 auto; display: block; background:url(http://res.huopinjie.com/taoke/template/default/inc/images/plug/load1.gif) no-repeat; }
+.HPT-plugin .HPT-loading .HPT-loading-img { clear:both; width:60px; height:42px; margin:0 auto; display: block; background:url(//static.cdn.youdanhui.com/taoke/template/default/inc/images/plug/load1.gif) no-repeat; }
 .HPT-plugin .HPT-loading .HPT-loading-tip { clear:both; text-align: center }
 
 #HPT-plugin-container { overflow:hidden; min-width:550px; height:300px; padding:20px 15px; }
@@ -124,7 +124,7 @@ i.HPT-plugin-icmall{ background-position:-75px -50px; display:inline-block; widt
 
 /* 表格 */
 .HPT-plugin .m-table { table-layout:fixed; width:100%; margin-top:15px; }
-.HPT-plugin .m-table i { width:16px; height:11px; margin-left:5px; display:inline-block; background:url(http://res.huopinjie.com/taoke/template/default/inc/images/plug/load.gif) no-repeat; vertical-align:middle; }
+.HPT-plugin .m-table i { width:16px; height:11px; margin-left:5px; display:inline-block; background:url(//static.cdn.youdanhui.com/taoke/template/default/inc/images/plug/load.gif) no-repeat; vertical-align:middle; }
 .HPT-plugin .m-table th, .HPT-plugin .m-table td { padding:8px 2px; border:1px solid #e3e3e3; text-align: center; }
 .HPT-plugin .m-table th { font-weight:bold; border-bottom:solid 1px #e3e3e3; background:#F9F9F9; background:-webkit-gradient(linear,left top,left bottom,from(#FEFEFE),to(#F5F5F5));background:-moz-linear-gradient(top,#FEFEFE,#F5F5F5);background:-o-linear-gradient(top,#FEFEFE,#F5F5F5);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FEFEFE',endColorstr='#F5F5F5');zoom:1; cursor:pointer; }
 .HPT-plugin .m-table tbody tr:nth-child(2n) { background:#FAFAFA; }
@@ -162,7 +162,7 @@ i.HPT-plugin-icmall{ background-position:-75px -50px; display:inline-block; widt
 .HPT-plugin .HPT-footer ul.f-fl { padding:0 20px; }
 .HPT-plugin .HPT-footer ul.f-fl li { float:left; margin-right:20px; }
 .HPT-plugin .HPT-footer ul.f-fl li.last { margin-right:0; }
-.HPT-plugin .HPT-footer ul.f-fl li i.qun { width:90px; height:22px; display:inline-block; background:url(http://res.huopinjie.com/taoke/template/default/inc/images/plug/qq.png) no-repeat; vertical-align: middle; }
+.HPT-plugin .HPT-footer ul.f-fl li i.qun { width:90px; height:22px; display:inline-block; background:url(//static.cdn.youdanhui.com/taoke/template/default/inc/images/plug/qq.png) no-repeat; vertical-align: middle; }
 
 
 

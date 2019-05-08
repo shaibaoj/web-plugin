@@ -314,12 +314,12 @@ $('#alimama_login').click(function(){
 });
 
 $('#hpt_login').click(function(){
-	var url = 'http://www.haopintui.com/user.php?plug=1';
+	var url = 'http://www.haopintui.net/user.php?plug=1';
 	ext.HPT_BG_Plugin.browserOpen(url,650,520);
 });
 
 $('#hpt_pid_a').click(function(){
-	var url = 'http://www.haopintui.com/user.php?action=pid';
+	var url = 'http://www.haopintui.net/user.php?action=pid';
 	ext.HPT_BG_Plugin.browserOpen(url,850,600);
 });
 
