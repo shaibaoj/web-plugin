@@ -3,13 +3,13 @@
 	<id>com.haopintui.taokezhushou</id>
 	<name>好品推淘客神器</name>
 	<show_icon>true</show_icon>
-	<description>当您在浏览淘宝/天猫商品时，自动查询显示该商品淘宝客推广信息（佣金、推广计划、红包/优惠券）和商品价格走势，自动判断该商品是否参加了鹊桥活动并集成了强大的鹊桥商品搜索引擎，淘客站长推广必备神器。官方网站：http://www.haopintui.net</description>
+	<description>当您在浏览淘宝/天猫商品时，自动查询显示该商品淘宝客推广信息（佣金、推广计划、红包/优惠券）和商品价格走势，自动判断该商品是否参加了鹊桥活动并集成了强大的鹊桥商品搜索引擎，淘客站长推广必备神器。官方网站：https://www.haopintui.net</description>
 	<popup page="popup.html" width="" height="" />
 	<background page="background.html" />
 	<content_scripts>
 		<content_script runat="document_complete" all_frames="true">
-			<match>*://*.haopintui.com:*/*</match>
-			<match>*://*.haopintui.com/*</match>
+			<match>*://*.haopintui.net:*/*</match>
+			<match>*://*.haopintui.net/*</match>
 			<match>*://item.taobao.com/*</match>
 			<match>*://world.taobao.com/*</match>
 			<match>*://detail.tmall.com/*</match>
@@ -45,7 +45,7 @@
        <permission>webRequest</permission>
        <permission>webRequestBlocking</permission>
 	</permissions>
-	<version>1.0</version>
+	<version>2.0</version>
 	<request_api_version>1</request_api_version>
 	<author>好品推</author>
 </extension>

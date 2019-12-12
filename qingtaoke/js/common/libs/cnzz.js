@@ -1,1 +1,0 @@
-define("cnzz",["jquery","underscore"],function(a,b){return function(){function a(){}return a.prototype.appendCnzz=function(){},a.prototype.EventCnzz=function(){},a}()});

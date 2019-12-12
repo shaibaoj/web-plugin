@@ -1,1 +1,0 @@
-define("collectQTK",["jquery","underscore","collectApplyCampaign"],function(a,b,c){return function(){function b(){this.showButton()}return b.prototype.showButton=function(){return a(".convert-selected").show(),a(".convert-all").show(),this.bindEvent()},b.prototype.bindEvent=function(){return new c},b}()});

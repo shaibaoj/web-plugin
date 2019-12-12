@@ -1,6 +1,6 @@
 var firstInstall = window.localStorage.firstInstall;
 if(typeof firstInstall == 'undefined'){
-	chrome.tabs.create({url:"http://www.haopintui.net/?from=plugin",selected:true});
+	chrome.tabs.create({url:"https://www.haopintui.net/?from=plugin",selected:true});
 	window.localStorage.firstInstall = "true";
 }
 
@@ -226,7 +226,7 @@ var HPT_BG_Plugin = {
 		},
 		getHptUid:function(fn){ //登录好品推
 			var _this = this;
-			var url ="http://www.haopintui.net/common/userinfo.php?"+new Date().getTime();
+			var url ="https://www.haopintui.net/common/userinfo.php?"+new Date().getTime();
 			getAjax(url, function(msg) {
 				msg = $.trim(msg);
 				var data = JSON.parse(msg);
@@ -271,7 +271,7 @@ var HPT_BG_Plugin = {
 		},
 		get_cms_list:function(fn){
 			var _this = this;
-			var url ="http://www.haopintui.net/common/user_cms.php?"+new Date().getTime();
+			var url ="https://www.haopintui.net/common/user_cms.php?"+new Date().getTime();
 			getAjax(url, function(msg) {
 				msg = $.trim(msg);
 				var data = JSON.parse(msg);
@@ -285,7 +285,7 @@ var HPT_BG_Plugin = {
 		},
 		get_pid_list:function(fn){
 			var _this = this;
-			var url ="http://www.haopintui.net/common/user_pid.php?"+new Date().getTime();
+			var url ="https://www.haopintui.net/common/user_pid.php?"+new Date().getTime();
 			getAjax(url, function(msg) {
 				msg = $.trim(msg);
 				var data = JSON.parse(msg);

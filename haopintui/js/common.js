@@ -194,7 +194,7 @@ var HPT_Plugin = {
 							<div class="HPT-plugin-ainside"><span id="HPT-plugin-bar-coupon-data"><i class="icon coupon"></i>优惠券</span></div>\
 							<div class="HPT-plugin-bar-couponbox">\
 								<div class="HPT-plugin-b">\
-									<a href="http://www.haopintui.net/" class="HPT-plugin-l" target="_blank"></a>\
+									<a href="https://www.haopintui.net/" class="HPT-plugin-l" target="_blank"></a>\
 									<div class="version"></div>\
 									<div class="f-cb"></div>\
 									<div class="top-shadow"></div>\
@@ -211,8 +211,8 @@ var HPT_Plugin = {
 							<div class="HPT-plugin-ainside"><i class="icon ty"></i><span id="HPT-plugin-lm-data">正在查询...</span></div>\
 							<div class="HPT-plugin-lmbox">\
 								<div class="HPT-plugin-b">\
-									<a href="http://www.haopintui.net/" class="HPT-plugin-l" target="_blank"></a>\
-									<form class="HPT-plugin-search" action="http://www.haopintui.net/index.php" method="get" target="_blank" accept-charset="UTF-8">\
+									<a href="https://www.haopintui.net/" class="HPT-plugin-l" target="_blank"></a>\
+									<form class="HPT-plugin-search" action="https://www.haopintui.net/index.php" method="get" target="_blank" accept-charset="UTF-8">\
 										<input type="hidden" name="mod" id="mod" value="index">\
 										<input type="text" placeholder="请输入关键字或宝贝网址(全网)" name="q">\
 										<input type="submit" value="">\
@@ -262,7 +262,7 @@ var HPT_Plugin = {
 				</div>',
 	generateCopywritingTpl:'<div class="HPT-plugin"><div class="HPT-plugin-copywritingbox" id="HPT-plugin-copywritingbox" style="display:none">\
 					<div class="HPT-plugin-b">\
-						<a href="http://www.haopintui.net/" class="HPT-plugin-l" target="_blank"></a>\
+						<a href="https://www.haopintui.net/" class="HPT-plugin-l" target="_blank"></a>\
 						<div class="version"></div>\
 						<div class="f-cb"></div>\
 						<div class="subtitle">全网商品（包括淘宝联盟和群里找的）都可以一键转链生成带自己PID的短链接和二合一淘口令的发群推广文案！</div>\
@@ -944,7 +944,7 @@ var HPT_Plugin = {
 		});
 		chrome.extension.sendRequest({
 			type: "pajax", 
-			url: 'http://www.haopintui.net/common/userinfo.php',
+			url: 'https://www.haopintui.net/common/userinfo.php',
 			postdata:{iid:_this.item_id}
 		},function(response){
 			if(response.msg == 'ok'){
@@ -1538,7 +1538,7 @@ var HPT_Plugin = {
 		layer.confirm('您还没登录好品推，是否立即登录？', {icon: 3},function(){
 			var index = layer.confirm();
 			layer.close(index);
-			_this.browserOpen('http://www.haopintui.net/user.php?plug=1',680,550);
+			_this.browserOpen('https://www.haopintui.net/user.php?plug=1',680,550);
 			layer.confirm('您是否已经成功登录好品推？', {
 				icon: 3,
 				btn: ['是','否'],
