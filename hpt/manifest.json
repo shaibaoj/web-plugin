@@ -1,0 +1,48 @@
+{
+    "manifest_version": 2,
+    "name": "5118站长工具箱",
+    "version": "2.0.3",
+    "description": "5118站长工具箱为搜索引擎优化分析提供强劲扩展支持，通过浏览器插件方式为SEO数据分析工作提供非常便利的可视化支持。",
+    "icons":
+    {
+        "16": "img/5118icon.png",
+        "48": "img/5118icon.png",
+        "128": "img/5118icon.png"
+    },
+    "background":
+    {
+        "scripts": ["js/background.js"],
+		"persistent": true
+    },
+    "browser_action":
+    {
+        "default_icon": "img/5118icon.png",
+        "default_title": "5118站长工具箱，SEO分析效率工具",
+        "default_popup": "popup.html"
+    },
+    "content_security_policy": "script-src 'self' https://aiplugin.5118.com/; object-src 'self'",
+    
+    "content_scripts":
+    [
+        {
+            "matches": ["http://*/*","https://*/*"],
+            "js": ["js/content_srcipt.js"],
+            "run_at": "document_start"
+        }
+    ],
+    "permissions":
+    [
+		"tabs",
+        "storage",
+        "activeTab",
+        "http://*/*",
+        "https://*/*",
+        "webRequest",
+        "webRequestBlocking",
+		"browsingData",
+        "notifications"
+        
+    ],
+    "web_accessible_resources": ["https://aiplugin.5118.com/static/OnlineNewJS/ControlTools.js","https://aiplugin.5118.com/static/OnlineNewJS/closemenu.js","https://aiplugin.5118.com/static/OnlineNewJS/enable.js","https://aiplugin.5118.com/static/OnlineNewJS/injected-script.js","img/*.png"],
+    "homepage_url": "https://www.5118.com"
+}
