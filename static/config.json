@@ -1,0 +1,18 @@
+[
+	{
+		"type": "date",
+		"url": "2020010623"
+	},
+	{
+		"type": "js",
+		"url": "https://static.youdanhui.com/static/js/common.js"
+	},
+	{
+		"type": "js",
+		"url": "https://static.youdanhui.com/static/js/coupon.js"
+	},
+	{
+		"type": "css",
+		"url": "https://static.youdanhui.com/static/css/style.css"
+	}
+]

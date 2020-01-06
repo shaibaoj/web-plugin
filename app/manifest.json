@@ -2,14 +2,12 @@
     "manifest_version": 2,
     "name": "好品推推广插件",
     "version": "2.0.0",
-
     "description": "好品推推广神器 haopintui.net",
     "icons": {
         "16": "img/16.png",
         "48": "img/48.png",
-       "128": "img/128.png"
+        "128": "img/128.png"
     },
-    
     "browser_action": {
         "default_icon": {
             "16": "img/16.png",
@@ -19,24 +17,39 @@
         "default_title": "轻淘客推广插件",
         "default_popup": "html/popup.html"
     },
-
     "author": "Mr.Li",
     "background": {
-
         "persistent": true,
-        "scripts": ["js/background.js"]
+        "scripts": [
+            "js/background.js"
+        ]
     },
-    "content_scripts":[
+    "content_scripts": [
         {
-            "matches": ["*://*/*"],
-            "js": ["js/contents.js"],
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "js/contents.js"
+            ],
             "run_at": "document_end"
         }
     ],
     "offline_enabled": true,
     "options_page": "html/option.html",
     "permissions": [
-        "<all_urls>", "tabs", "history", "activeTab", "storage", "cookies", "webRequest", "webRequestBlocking", "notifications", "contextMenus", "http://*/*", "https://*/*"
+        "<all_urls>",
+        "tabs",
+        "history",
+        "activeTab",
+        "storage",
+        "cookies",
+        "webRequest",
+        "webRequestBlocking",
+        "notifications",
+        "contextMenus",
+        "http://*/*",
+        "https://*/*"
     ],
     "content_security_policy": "script-src 'self' https://plugsource.qingtaoke.com; object-src 'self'"
 }

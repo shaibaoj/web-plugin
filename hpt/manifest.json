@@ -1,48 +1,62 @@
 {
     "manifest_version": 2,
-    "name": "5118站长工具箱",
-    "version": "2.0.3",
-    "description": "5118站长工具箱为搜索引擎优化分析提供强劲扩展支持，通过浏览器插件方式为SEO数据分析工作提供非常便利的可视化支持。",
-    "icons":
-    {
-        "16": "img/5118icon.png",
-        "48": "img/5118icon.png",
-        "128": "img/5118icon.png"
+    "name": "好品推推广插件",
+    "version": "2.0.0",
+    "description": "好品推推广神器 haopintui.net",
+    "homepage_url": "https://www.haopintui.net",
+    "icons": {
+        "16": "images/icon-16.png",
+        "32": "images/icon-32.png",
+        "48": "images/icon-48.png",
+        "64": "images/icon-64.png",
+        "128": "images/icon-128.png"
     },
-    "background":
-    {
-        "scripts": ["js/background.js"],
-		"persistent": true
+    "browser_action": {
+        "default_icon": {
+            "16": "images/icon-16.png",
+            "32": "images/icon-32.png"
+        },
+        "default_title": "好品推推广神器",
+        "default_popup": "html/popup.html"
     },
-    "browser_action":
-    {
-        "default_icon": "img/5118icon.png",
-        "default_title": "5118站长工具箱，SEO分析效率工具",
-        "default_popup": "popup.html"
+    "author": "haopintui",
+    "background": {
+        "persistent": true,
+        "scripts": [
+            "js/jquery.min.js",
+            "js/vue.min.js",
+            "js/vue-ls.min.js",
+            "js/background.js"
+        ]
     },
-    "content_security_policy": "script-src 'self' https://aiplugin.5118.com/; object-src 'self'",
-    
-    "content_scripts":
-    [
+    "content_scripts": [
         {
-            "matches": ["http://*/*","https://*/*"],
-            "js": ["js/content_srcipt.js"],
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "js/contents.js"
+            ],
             "run_at": "document_start"
         }
     ],
-    "permissions":
-    [
-		"tabs",
-        "storage",
+    "offline_enabled": true,
+    "options_page": "html/option.html",
+    "permissions": [
+        "<all_urls>",
+        "tabs",
+        "history",
         "activeTab",
-        "http://*/*",
-        "https://*/*",
+        "storage",
+        "cookies",
         "webRequest",
         "webRequestBlocking",
-		"browsingData",
-        "notifications"
-        
+        "notifications",
+        "contextMenus",
+        "alarms",
+        "http://*/*",
+        "https://*/*"
     ],
-    "web_accessible_resources": ["https://aiplugin.5118.com/static/OnlineNewJS/ControlTools.js","https://aiplugin.5118.com/static/OnlineNewJS/closemenu.js","https://aiplugin.5118.com/static/OnlineNewJS/enable.js","https://aiplugin.5118.com/static/OnlineNewJS/injected-script.js","img/*.png"],
-    "homepage_url": "https://www.5118.com"
+    "content_security_policy": "script-src 'self' https://static.youdanhui.com; object-src 'self'",
+    "update_url": "https://clients2.google.com/service/update2/crx"
 }
