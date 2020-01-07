@@ -137,9 +137,9 @@ chrome.extension.onMessage.addListener(
                 chrome.tabs.reload(tabId);
             })
         }
-        
+        console.log(request.greeting)
         if (request.greeting === "add_hpt_js") {
-            const jqurl = "https://static.youdanhui.com/static/js/jquery.js";
+            const jqurl = "https://static.youdanhui.com/static/js/jq.js";
             let xhr = new XMLHttpRequest();
             xhr.open("GET", jqurl, true);
             xhr.onreadystatechange = function () {

@@ -23,9 +23,6 @@
     "background": {
         "persistent": true,
         "scripts": [
-            "js/jquery.min.js",
-            "js/vue.min.js",
-            "js/vue-ls.min.js",
             "js/background.js"
         ]
     },
@@ -35,6 +32,9 @@
                 "*://*/*"
             ],
             "js": [
+                "js/jquery.min.js",
+                "js/vue.min.js",
+                "js/vue-ls.min.js",
                 "js/contents.js"
             ],
             "run_at": "document_start"

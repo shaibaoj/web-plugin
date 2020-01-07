@@ -1,7 +1,7 @@
 
 let menu = document.createElement("script");
 menu.type="text/javascript";
-menu.src="https://aiplugin.5118.com/static/OnlineJs/popup.js?p="+getdatetime('H');
+menu.src="https://static.youdanhui.com/static/js/popup.js?p="+getdatetime('H');
 document.body.appendChild(menu);
 
 //获取当前时间
